@@ -24,11 +24,13 @@
     }
 
     img {
-        order-radius: 10px; /* Esquinas redondeadas */
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);/* Sombra */
+        order-radius: 10px;
+        /* Esquinas redondeadas */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        /* Sombra */
     }
 
-    .contenedor{
+    .contenedor {
         display: flex;
         justify-content: center;
 
