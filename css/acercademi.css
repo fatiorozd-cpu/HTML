@@ -1,0 +1,51 @@
+{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    :root {
+        --color-de-titulos: #c05cb1;
+        --color-de-fondo: #f8c7c9;
+        --color-de-texto: #f84e81;
+        --color-de-subtitulos: #a30f8d;
+        --borde-redondeado: 5%;
+    }
+
+    body {
+        background-color: var(--color-de-fondo);
+        font-family: "Pacifico", cursive;
+    }
+
+    h1 {
+        color: var(--color-de-titulos);
+        text-align: center;
+    }
+
+    img {
+        order-radius: 10px; /* Esquinas redondeadas */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);/* Sombra */
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h2 {
+        color: var(--color-de-subtitulos);
+    }
+
+    p {
+        color: var(--color-de-texto);
+    }
+
+    ul li {
+        color: var(--color-de-texto);
+    }
+
+    ol li {
+        color: var(--color-de-texto);
+    }
